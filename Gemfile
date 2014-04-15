@@ -10,6 +10,8 @@ gem 'turbolinks'
 gem 'bcrypt'
 gem 'bootstrap-sass'
 gem 'bootstrap-sass-extras'
+gem 'sass'
+gem 'paperclip'
 
 
 group :development do
