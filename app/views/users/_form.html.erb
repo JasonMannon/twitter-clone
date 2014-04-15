@@ -25,12 +25,12 @@
   <%= f.password_field :password %>
 </div>
 <div class="field">
-  <%= f.label :avatar %><br>
-  <%= f.file_field :avatar %><br>
-</div>
-<div class="field">
   <%= f.label :password_confirmation %><br />
   <%= f.password_field :password_confirmation %><br />
+</div>
+<div class="field">
+  <%= f.label :avatar %><br>
+  <%= f.file_field :avatar %><br>
 </div>
   <%= f.submit(:class => 'sign_up_btn') %>
 <% end %>

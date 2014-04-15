@@ -1,5 +1,9 @@
-<%= link_to "New Tweet", new_tweet_path, id: "new_link", remote: true %>
 
+<% if current_user %>
+<%= link_to "New Tweet", new_tweet_path, id: "new_link", remote: true %>
+<% else %>
+<h3>Log in to make a new tweet</h3>
+<% end %>
 
 <div id="tweet_list">
   <ul>
